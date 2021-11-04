@@ -17,10 +17,13 @@
       </form>
       </nav>
 
-    {% block content %}
-      There is no any content
-    {% endblock %}
+    <div class="container">
+      <div class="row">
+        <div class="col-6 offset-md-2">
+          {% block content %}
+            There is no any content
+          {% endblock %}
 
-    </body>
+          </body>
 
   </html>
